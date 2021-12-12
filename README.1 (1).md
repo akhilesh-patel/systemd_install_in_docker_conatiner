@@ -33,6 +33,7 @@ VOLUME [ "/sys/fs/cgroup" ]
 CMD ["/usr/sbin/init"]
 
 step 2: create docker image
+
 #docker build -t akhilesh_systemd .
 
 # step 3: create docker conatiner 
